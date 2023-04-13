@@ -28,3 +28,8 @@ python siamese_rnn/rnn.py
 # train Siamese model with bidirectional Elman RNN unit
 python siamese_rnn/birnn.py
 ```
+
+And then test the different model with commands:
+
+```
+python siamese_rnn/test.py --model_type {} --model_path
