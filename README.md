@@ -5,7 +5,8 @@
 Please train the corresponding models with commands:
 
 ```
-python gru.py # train Siamese model with GRU unit
+# train Siamese model with GRU unit
+python gru.py
 ```
 ```
 python bigru.py # train Siamese model with bidirectional GRU unit
