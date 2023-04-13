@@ -2,10 +2,14 @@
 
 ## Siamese Recurrent Neural Networks
 
-Please run the code with the commands:
+Please train the corresponding models with commands:
+
 ```
 python gru.py
+```
+```
 python bigru.py
+```
 python lstm.py
 python bilstm.py
 python rnn.py
