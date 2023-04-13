@@ -34,4 +34,4 @@ And then test the different model with commands:
 ```
 python siamese_rnn/test.py --model_type {model_type} --model_path ./siamese_rnn/check_points/{model_type}.pt
 ```
-`model_type` can choose from []
+`model_type` can choose from `['rnn', 'birnn', 'gru', 'bigru', 'lstm', 'bilstm']`.
