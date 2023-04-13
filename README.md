@@ -29,9 +29,17 @@ python siamese_rnn/rnn.py
 python siamese_rnn/birnn.py
 ```
 
-And then test the different model with commands:
+And then test the different model with following commands, `model_type` should be chosen from `['rnn', 'birnn', 'gru', 'bigru', 'lstm', 'bilstm']`.
 
 ```
 python siamese_rnn/test.py --model_type {model_type} --model_path ./siamese_rnn/check_points/{model_type}.pt
 ```
-`model_type` should be chosen from `['rnn', 'birnn', 'gru', 'bigru', 'lstm', 'bilstm']`.
+
+## BERT and Ensemble BERT
+
+Please train the corresponding models with commands:
+
+```
+# train BERT model and test
+python bert/bert.py
+```
