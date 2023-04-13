@@ -1,5 +1,16 @@
 # AI6127_project
 
+## Similarity Based Method
+
+Please generate the evaluation results at different thresholds with the commands:
+
+```
+# generate the results
+python similarity_based/similarity.py
+```
+
+Then, the accuracy, precision, recall and f1 score are generated in result.txt in similarity folder.
+
 ## Siamese Recurrent Neural Networks
 
 Please train the corresponding models with commands:
