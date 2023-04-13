@@ -9,17 +9,22 @@ Please train the corresponding models with commands:
 python gru.py
 ```
 ```
-python bigru.py # train Siamese model with bidirectional GRU unit
+# train Siamese model with bidirectional GRU unit
+python bigru.py
 ```
 ```
-python lstm.py # train Siamese model with LSTM unit
+# train Siamese model with LSTM unit
+python lstm.py
 ```
 ```
-python bilstm.py # train Siamese model with bidirectional LSTM unit
+# train Siamese model with bidirectional LSTM unit
+python bilstm.py
 ```
 ```
-python rnn.py # train Siamese model with Elman RNN unit
+# train Siamese model with Elman RNN unit
+python rnn.py
 ```
 ```
-python birnn.py # train Siamese model with bidirectional Elman RNN unit
+# train Siamese model with bidirectional Elman RNN unit
+python birnn.py
 ```
