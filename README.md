@@ -43,3 +43,8 @@ Please train the corresponding models with commands:
 # train BERT model and test
 python bert/bert.py
 ```
+
+```
+# train Ensemble BERT model and test
+python bert/bert_ensemble.py
+```
